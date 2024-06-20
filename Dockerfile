@@ -13,6 +13,7 @@ RUN apt-get update \
       graphviz \
       imagemagick \
       make \
+      g++ \
  && apt-get autoremove \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
